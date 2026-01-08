@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
-// ignore: unused_import
-import 'screens/splash_screen.dart'; // HAPUS 'package:makanskuy/'
+import 'screens/splash_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const AppMakanskuy());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class AppMakanskuy extends StatelessWidget {
+  const AppMakanskuy({super.key});
 
   @override
   Widget build(BuildContext context) {
